@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <meta charset="utf-8">
+        <title>WANKEL - Rendez-vous</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </header>
+    <body>
+        <nav>
+            <img src="logo.png" alt="Photo du logo" />    
+            <h1>WANKEL</h1>
+            <ul class="menu">
+            <li>
+                <a href="index.html">Acheter</a>
+            </li>
+            <li>
+                <a href="Réparer.html">Réparer</a>
+            </li>
+            <li>
+                <a href="Rendez-vous.html">Rendez-vous</a>
+            </li>
+            </ul>
+              <img
+                id="formBanner" 
+                src="formComputer.jpg" 
+                alt="Bannière du formulaire"
+              /> 
+        </nav>
+        <article class="rendezvous">
+          <form class="genre">
+            <fieldset id="preferences">
+              <legend>Sélectionnez votre préférence </legend>
+              <ul id ="select">
+                <input type="radio" name="genre"/>
+                <label for="femme">Femme</label>
+          
+                <input type="radio" name="genre"/>
+                <label for="homme">Homme</label>
+          
+                <input type="radio" name="genre"/>
+                <label for="nongenre">Non-genré</label>
+              </ul>
+            </fieldset>
+          </form>
+            <fieldset id="infosPerso">
+              <p></p>
+              <label class="coordonnees">Nom* : </label>
+              <input type="text" id="nom" value="" />
+              <br></br>
+              <label class="coordonnees">Prénom : </label>
+              <input type="text" id="prenom" value="" />
+              <br></br>
+              <label class="coordonnees">Date de naissance* : </label>
+              <input type="date" id="naissance" value="--" min="1800-01-01" max="2023-01-01">
+              <br></br>
+              <label class="coordonnees">Adresse mail* : </label>
+              <input type="email" id="mail" value="" />
+              <label id="emailOk">Nécessaire pour recevoir un email de confirmation</label>
+              <br></br>
+              <label class="coordonnees">Numéro de téléphone : </label>
+              <input type="tel" id="tel" value="" />
+              <br></br>
+            </fieldset>
+          <fieldset id="priseRdv">
+            <legend id="raisonRdv">Raison de la prise de rendez-vous </legend>
+              <input type="radio" name="rdv">Achat d'une voiture</input>
+              <input type="radio" name="rdv">Réparation</input>
+          </fieldset>
+          <fieldset id="agenceHoraire">
+            <label class="agence">Choix de l'agence* : </label>
+            <select>
+              <option value="agence">Bayonne</option>
+              <option value="agence">Biarritz</option>
+              <option value="agence">Anglet</option>
+              <option value="agence">St Pierre d'Irube</option>
+            </select>
+          <br></br>
+          <label class="horaire">Choix de l'horaire* : </label>
+          <input type="date" id="dateRdv" value="--" min="2023-01-01" max="9999-12-12">
+          <select>
+            <option value="horaire">14h</option>
+            <option value="horaire">14h30</option>
+            <option value="horaire">16h</option>
+            <option value="horaire">17h30</option>
+          </select>
+        </fieldset>
+          <br></br>
+          <br></br>
+          <p class="infosBouton">* : Informations obligatoires</p>
+          <a  class="infosBouton" href="recapitulatif.html">
+            <button class="infosBouton">Confirmer</button>
+          </a>
+
+        </article class="rendezvous">
+
+    </body>
+
+    <footer>
+            <h4 id="copyright">© Wankel.com 2022</h4>
+            <p id="aPropos">
+                <a href=a_propos.html style="color:#0D7FA5;">À propos de nous</a>
+            </p>
+            <p id="contact">
+                <a href=contact.html style="color:#0D7FA5;">Nous contacter</a>
+            </p>
+            <p id="conditions">
+                <a href=conditions.html style="color:#0D7FA5;">Conditions générales<a>
+            </p>
+            <p id="aideFaq">
+                <a href=aide_faq.html style="color:#0D7FA5;">Aide & FAQ</a>
+            </p>
+            <p id="donnees">
+                <a href=utilisation_donnees.html style="color:#0D7FA5;">Politique d'utilisation des données</a>
+            </p>
+            <p id="cookies">
+                <a href=gerer_cookies.html style="color:#0D7FA5;">Gérer les cookies</a>
+            </p>
+    </footer>
+</html>
