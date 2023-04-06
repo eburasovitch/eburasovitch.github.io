@@ -1,0 +1,476 @@
+.menu {
+  display: flex;
+  /* Transformation en block */
+  padding: 0;
+  justify-content: center;
+  list-style: none;
+
+
+}
+
+.menu a {
+  display: block;
+  padding: 0.65rem 3rem;
+  /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
+  text-align: center;
+  /* Centrage du texte */
+  color: black;
+  /* Couleur du texte */
+  font-size: 25px;
+  text-decoration: none;
+  /* Suppression du soulignement */
+  border: 1px solid black;
+  /* Ajout d'une bordure */
+
+}
+
+.menu a:hover {
+  background-color: rgb(121, 146, 255);
+  color: black;
+  border-color: black;
+}
+
+img {
+  float: left;
+  width: 125px;
+  height: 125px;
+}
+
+h1 {
+  font-size: 45px;
+  color: #000;
+  height: 50px;
+  text-align: center;
+  margin: 10px;
+}
+
+#copyright {
+  display: inline;
+  text-align: left;
+  margin-right: 25px;
+}
+
+nav {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 99.85%;
+  border-color: black;
+  border: 2px solid black;
+  height: 125px;
+}
+
+footer {
+  position: fixed;
+  bottom: 15px;
+  /* pour abaisser le footer */
+  width: 100%;
+}
+
+#aPropos {
+  display: inline;
+  text-align: right;
+}
+
+#contact {
+  display: inline;
+  margin-left: 25px;
+  text-align: right;
+}
+
+#conditions {
+  display: inline;
+  margin-left: 25px;
+  text-align: right;
+}
+
+#aideFaq {
+  display: inline;
+  margin-left: 25px;
+  text-align: right;
+}
+
+#donnees {
+  display: inline;
+  margin-left: 25px;
+  text-align: right;
+}
+
+#cookies {
+  display: inline;
+  margin-left: 25px;
+  text-align: right;
+}
+
+.genre {
+  margin-top: 125px;
+}
+
+.coordonnees {
+  margin-left: 15px;
+}
+
+#infosPerso {
+  margin-top: 10px;
+}
+
+#priseRdv {
+  margin-top: 10px;
+}
+
+#raisonRdv {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.infosBouton {
+  margin-top: -50px;
+  font-size: 14px;
+}
+
+#emailOk {
+  margin-left: 10px;
+}
+
+#ligneInfos {
+  font-size: 6px;
+}
+
+.rendezvous {
+  font-family: arial;
+  font-size: 16px;
+  position: absolute;
+  margin-left: 150px;
+}
+
+#agenceHoraire {
+  margin-top: 20px;
+}
+
+#formBanner {
+  width: 400px;
+  height: 500px;
+  float: right;
+  margin-right: 250px;
+}
+
+#contactForm {
+  margin-top: 175px;
+  margin-left: 25px;
+}
+
+#contactBanner {
+  margin-bottom: 500px;
+  width: 500px;
+  height: 500px;
+  float: right;
+}
+
+.recap {
+  margin-top: 145px;
+}
+
+.recapAgence {
+  margin-top: 15px;
+}
+
+.recapBouton {
+  font-size: 18px;
+}
+
+#modifier {
+  margin-left: 6px;
+}
+
+#confirmer {
+  margin-left: 25px;
+}
+
+#confirmeLogo {
+  display: block;
+  margin-top: 125px;
+  margin-left: 550px;
+  position: auto;
+  width: 25%;
+  height: 25%;
+}
+
+#confirmation {
+  text-align: center;
+  position: relative;
+}
+
+#inProgress {
+  display: block;
+  margin-top: 190px;
+  margin-left: 400px;
+  position: auto;
+  width: 50%;
+  height: 50%;
+}
+#select
+{
+  position: relative;
+  display: block;
+  margin-top: 0px;
+}
+
+/* Code CSS NOUR */
+/***********************************************************************************************************************************************************************/
+.reparer {
+  margin-top: 150px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 70% 30%;
+}
+
+.article1 {
+  grid-column: 1;
+  grid-row: 1;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article2 {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.article3 {
+  grid-column: 1 / 3;
+  grid-row: 2;
+  margin-bottom: 3em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#ajouter {
+  height: 100px;
+  width: 1000px;
+}
+
+.labelReparer {
+  color: #1E90FF;
+  font-size: 1.2em;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  display: block;
+  float: left;
+  width: 150px;
+}
+
+.inputReparer,
+.selectReparer
+{
+  padding: 0.5em;
+  margin-bottom: 1.5em;
+}
+
+.inputReparer{
+  border-radius: 40%;
+}
+
+.article2>form>label {
+  width: 250px;
+}
+
+.article3>form>label {
+  color: #000;
+  text-decoration: underline;
+  width: 400px;
+}
+
+.article3>form>button {
+  width: 150px;
+  height: 50px;
+  margin-left: 2em;
+  margin-top: 1.5em;
+  cursor: pointer;
+  background-color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  display: block;
+  float: right;
+}
+
+.traitement {
+  margin-top: 150px;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+.traitement>button {
+  width: 150px;
+  height: 50px;
+  margin-left: 2em;
+  margin-top: 1.5em;
+  cursor: pointer;
+  background-color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  display: block;
+  float: right;
+}
+/* Fin Code CSS NOUR */
+/***********************************************************************************************************************************************************************/
+
+/* Code CSS EWAN */
+/***********************************************************************************************************************************************************************/
+
+div,
+  .nomVoiture .p
+  {
+    position: absolute;
+    display: flex;
+    margin-bottom: 0px;
+    margin-top: 180px;
+    font-size: 30px;
+    list-style: none;
+    justify-content: center;
+    padding: 0px;
+    text-align: center;
+  }
+  .nomVoiture b{
+    display: block;
+  }
+  #voiture
+  {
+    position: relative;
+    display: inline;
+    width: 450px;
+    height: 250px;
+    margin-top: 0px;
+    margin-left: 90px;
+    margin-right: 80px;
+    border: 2px solid #000;
+  }
+
+
+.trie {
+  position: absolute;
+  width: 250px;
+  height: 80px;
+  margin-top: 150px;
+  margin-left: 150px;
+  border: 2px solid #000;
+}
+
+.trie a {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 0px;
+  font-size: 25px;
+  text-align: left;
+
+}
+
+.trie p {
+  position: relative;
+  margin-top: 10px;
+  margin-left: 130px;
+  text-align: left;
+}
+
+#button {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  margin-top: 160px;
+  margin-left: 280px;
+}
+
+.trie button b {
+  display: block;
+}
+
+#logo {
+  float: left;
+  width: 125px;
+  height: 125px;
+}
+.infosBanquaire {
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 50px;
+  width: 500px;
+  border: solid 2px black;
+ }
+ .infosBanquaire p{
+  font-size: 25px;
+  text-align: left;
+ }
+
+.description
+ {
+   position: absolute;
+   margin-top: 280px;
+   margin-left: 1240px;
+   width: 600px;
+   height: 600px;
+   border: solid 2px black;
+   }
+   .description p
+   {
+     font-size: 20px;
+     color:#000;
+     text-align: left;
+     margin-top: 500px;
+ 
+   }
+#indice
+{
+  position: absolute;
+  margin-top: 125px;
+  margin-left: 800px;
+  width: 350px;
+  height: 240px;
+}
+.presentation 
+{
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 1150px;
+  list-style: none;
+ }
+ .presentation p
+ {
+    font-size: 40px;
+    justify-content: center;
+    padding: 0px;
+    text-align: center;
+ }
+ .presentation b
+ {
+    font-size: 40px;
+    justify-content: center;
+    padding: 0px;
+    text-align: center;
+ }
+.boutonAchat{
+  position: absolute;
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  list-style: none;
+ }
+ .boutonAchat a{
+  position: absolute;
+  margin-top: 750px;
+  margin-left: 700px;
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  color: black;
+  font-size: 25px;
+  text-decoration: none;
+  border: 2px solid black;
+ }
+ .boutonAchat a:hover {
+  background-color: rgb(121, 146, 255);
+  color: black;
+  border-color: black;
+  }
+/* Fin Code CSS EWAN */
+/***********************************************************************************************************************************************************************/
